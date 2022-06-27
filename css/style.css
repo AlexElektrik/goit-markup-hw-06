@@ -858,7 +858,7 @@ img {
 }
 
 .modal-link-contract {
-  counter-reset: var(--color-accent);
+  color: var(--color-accent);
 }
 
 .modal-contract-checkbox:checked + .modal-checkbox {
