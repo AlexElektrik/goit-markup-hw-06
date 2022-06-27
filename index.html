@@ -333,42 +333,42 @@
           <ul class="icon-clients-list list">
             <li class="icon-client-item">
               <a href="" class="icon-client-link">
-                <svg class="icon-client">
+                <svg class="icon-client" width="106px" height="60px">
                   <use href="./images/SVG/icon.svg#icon-ya--co"></use>
                 </svg>
               </a>
             </li>
             <li class="icon-client-item">
               <a href="" class="icon-client-link">
-                <svg class="icon-client">
+                <svg class="icon-client" width="106px" height="60px">
                   <use href="./images/SVG/icon.svg#icon-tag-line"></use>
                 </svg>
               </a>
             </li>
             <li class="icon-client-item">
               <a href="" class="icon-client-link">
-                <svg class="icon-client">
+                <svg class="icon-client" width="106px" height="60px">
                   <use href="./images/SVG/icon.svg#icon-company"></use>
                 </svg>
               </a>
             </li>
             <li class="icon-client-item">
               <a href="" class="icon-client-link">
-                <svg class="icon-client">
+                <svg class="icon-client" width="106px" height="60px">
                   <use href="./images/SVG/icon.svg#icon-foster-peters"></use>
                 </svg>
               </a>
             </li>
             <li class="icon-client-item">
               <a href="" class="icon-client-link">
-                <svg class="icon-client">
+                <svg class="icon-client" width="106px" height="60px">
                   <use href="./images/SVG/icon.svg#icon-brand"></use>
                 </svg>
               </a>
             </li>
             <li class="icon-client-item">
               <a href="" class="icon-client-link">
-                <svg class="icon-client">
+                <svg class="icon-client" width="106px" height="60px">
                   <use href="./images/SVG/icon.svg#icon-tag-line"></use>
                 </svg>
               </a>
@@ -439,18 +439,105 @@
             </li>
           </ul>
         </div>
+        <div class="form-subscribe">
+          <form>
+            <h2 class="subscribe-title">Подпишитесь на рассылку</h2>
+            <div class="subscribe-container">
+              <label>
+                <input
+                  class="subscribe-fild"
+                  type="email"
+                  placeholder="E-mail"
+                  name="name"
+              /></label>
+              <button type="submit" class="button-subscribe">
+                Подписаться<svg
+                  class="icon-subscribe"
+                  width="24px"
+                  height="24px"
+                >
+                  <use href="./images/SVG/icon.svg#icon-send"></use>
+                </svg>
+              </button>
+            </div>
+          </form>
+        </div>
       </div>
     </footer>
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
         <button class="close-button" type="button" data-modal-close>
-          <svg class="icon-close" width="11px" height="11px">
+          <svg class="icon-close" width="18px" height="18px">
             <use href="./images/SVG/icon.svg#icon-close"></use>
           </svg>
         </button>
+        <h2 class="model-title">Оставьте свои данные, мы вам перезвоним</h2>
+        <form>
+          <div class="modal-form-field">
+            <label class="modal-lable">
+              <span class="modal-lable-text"> Имя </span>
+              <span class="modal-input-fild">
+                <input class="modal-input" type="text" name="name" />
+                <svg class="modal-icon" width="18px" height="18px">
+                  <use href="/images/SVG/icon.svg#icon-person"></use>
+                </svg>
+              </span>
+            </label>
+          </div>
+          <div class="modal-form-field">
+            <label class="modal-lable">
+              <span class="modal-lable-text">Телефон</span>
+              <span class="modal-input-fild">
+                <input class="modal-input" type="tel" name="tel" />
+                <svg class="modal-icon" width="18px" height="18px">
+                  <use href="/images/SVG/icon.svg#icon-phone"></use>
+                </svg>
+              </span>
+            </label>
+          </div>
+          <div class="modal-form-field">
+            <label class="modal-lable"
+              ><span class="modal-lable-text">Почта</span>
+              <span class="modal-input-fild">
+                <input class="modal-input" type="email" name="email" />
+                <svg class="modal-icon" width="18px" height="18px">
+                  <use href="/images/SVG/icon.svg#icon-email"></use>
+                </svg>
+              </span>
+            </label>
+          </div>
+          <div class="modal-form-textarea">
+            <label class="modal-lable">
+              <span class="modal-lable-text">Комментарий</span>
+            </label>
+            <textarea
+              class="modal-textarea"
+              name="comment"
+              id="textarea"
+              placeholder="Введите текст"
+            ></textarea>
+          </div>
+          <div class="modal-form-contract">
+            <label class="modal-lable-contract">
+              <input
+                class="modal-contract-checkbox visually-hidden"
+                type="checkbox"
+                name="terms-of-the-contract"
+                value="ok"
+              />
+              <span class="modal-checkbox"></span>
+              <span class="modal-text-checkbox"
+                >Соглашаюсь с рассылкой и принимаю
+                <a class="modal-link-contract link" href=""
+                  >Условия договора</a
+                ></span
+              >
+            </label>
+          </div>
+          <button class="modal-button-submit" type="submit">Отправить</button>
+        </form>
       </div>
     </div>
     <script src="./js/modal.js"></script>
   </body>
 </html>
-<section></section>
