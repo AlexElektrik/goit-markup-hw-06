@@ -582,6 +582,7 @@ img {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   border-color: #2196f3;
+  cursor: pointer;
 }
 
 .icon-subscribe {
@@ -832,6 +833,7 @@ img {
 }
 
 .modal-textarea {
+  display: block;
   width: 100%;
   height: 120px;
   outline: transparent;
@@ -857,10 +859,6 @@ img {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-link-contract {
-  color: var(--color-accent);
-}
-
 .modal-contract-checkbox:checked + .modal-checkbox {
   background-color: var(--color-accent);
   background-image: url(../images/SVG/icon/check.svg);
@@ -877,6 +875,11 @@ img {
 
 .modal-text-checkbox {
   margin-left: 7px;
+  line-height: 1.71;
+}
+
+.modal-link-contract {
+  color: var(--color-accent);
 }
 
 .modal-button-submit {
